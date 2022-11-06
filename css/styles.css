@@ -644,8 +644,8 @@ text-transform: uppercase;
     transition: opasity 300ms linear, visibility 300ms linear;
    }
    .modal {
-    width: 500px;
-    min-height: 500px;
+    width: 528px;
+    min-height: 581px;
     background-color: var(--main-title-color);
     position: absolute;
     top: 50%;
