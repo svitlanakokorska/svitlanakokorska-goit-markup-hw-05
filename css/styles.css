@@ -644,8 +644,8 @@ text-transform: uppercase;
     transition: opasity 300ms linear, visibility 300ms linear;
    }
    .modal {
-    width: 528px;
-    height: 581px;
+    width: 500px;
+    min-height: 500px;
     background-color: var(--main-title-color);
     position: absolute;
     top: 50%;
@@ -653,7 +653,7 @@ text-transform: uppercase;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 300ms linear;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+    border-radius: 4px;
    }
    .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0);
